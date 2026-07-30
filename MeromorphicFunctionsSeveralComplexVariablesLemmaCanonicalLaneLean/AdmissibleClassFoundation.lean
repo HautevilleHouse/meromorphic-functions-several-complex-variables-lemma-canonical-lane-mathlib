@@ -1,0 +1,14 @@
+import MeromorphicFunctionsSeveralComplexVariablesLemmaCanonicalLaneLean.ComplexManifold
+import MeromorphicFunctionsSeveralComplexVariablesLemmaCanonicalLaneLean.MeromorphicFunction
+
+namespace HautevilleHouse
+namespace MeromorphicFunctionsSeveralComplexVariablesLemmaCanonicalLaneLean
+
+structure AdmissibleClass where
+  object : MeromorphicFunctionPackage
+  endpointSatisfied : Prop
+  remainderRecorded : Prop
+  gateWitness : endpointSatisfied ∨ remainderRecorded
+
+end MeromorphicFunctionsSeveralComplexVariablesLemmaCanonicalLaneLean
+end HautevilleHouse
